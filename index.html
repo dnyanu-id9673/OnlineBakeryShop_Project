@@ -1,0 +1,472 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link   rel="icon" type="images/icon.png" href="images/icon.png">
+    
+       <link rel="website icon" type="jpeg" href="images.jpeg">
+            <link rel="website icon" type="jpeg" href="download.jpeg">
+       
+       <meta charset="UTF-8"  />
+       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+       <script src="https://kit.fontawesome.com/4a06b82909.js" crossorigin="anonymous">
+</script>
+       <link rel="stylesheet" href="bstyle.css" />
+       <title> CAKE HOUSE</title>
+
+</head>
+<body>
+    
+    <header class="header">
+      <a href="#footer" ><img src=" images/logo.jpeg" id="logoimg" /></a>
+      <nav class ="navbar">
+      <a href="#home">Home</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#cheese-cakes">Cheesecakes</a>
+      <a href="#new-arrivals">New arrivals</a>
+      <a href="#about">About</a>
+      <a href="#review">Review</a>
+      <a href="registration.html">Registration</a><a href="#registration"></a>
+        
+       <a href="login.html" >Login</a><a href="#login"></a>
+       <a href="admin.html">Admin</a><a href="#admin"></a>
+      <a href="#contact">Contact</a>
+</nav>
+        <div class="icons">
+        <!---div class="search-icon"><i class="fas fa-search"></i></div----->
+<div class="cart-icon"><i class="fas fa-cart-arrow-down"></i> <a href="1.html">  </div>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+</div>
+<div class="search-form">
+           <!---input type="search"name="search"  id="search-box" placeholder="Search here........."--->
+           <!---label for ="search-box" class="fas fa-search"></label--->
+</div>
+<form action="order.php" method="post">
+<div  class="cart-items-container">
+<!----------------------------------first item---order-------------------------------------->
+          <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/brownes.jpg" alt="" />
+          <div class ="content">
+          <h3> Brownie:)</h3>
+          <div class="price">Rs50/-</div>
+</div>
+</div>
+<!----------------------------------second item------------------------->
+<div class="cart-item">
+          <span class =" fas fa-times"></span>
+          <img src="images/cakes/cake1.jpg" alt="" />
+          <div class ="content">
+          <h3> Chocolate Cake:)</h3>
+          <div class="price">Rs51/-</div>
+ </div>
+ </div>
+ <!-----------------------------------thrd item----------------------------->
+<div class="cart-item">
+          <span class =" fas fa-times"></span>
+          <img src="images/cheesecake/cheesecake2.jpg" alt="" />
+          <div class ="content">
+            <h3>  Lemon Chessecake:)</h3>
+            <div class="price">Rs70.99/-</div>
+</div>
+</div>
+<!-------------------------------fourth item-------------------------------------->
+<div class="cart-item">
+        <span class =" fas fa-times"></span>
+        <img src="images/macroons1.jpg" alt="" />
+        <div class ="content">
+        <h3> Rainbow Cookies:)</h3>
+        <div class="price">Rs15/-</div>
+</div>
+</div> 
+<button><a href="1.html" class="btn" id="orderbtn"  name="save" type="submit">Order Now</a></button>
+<div class ="message" id="orderbtn"  name="order" style ="display:none">order Succefully</div  >
+    
+</div>
+</form>
+</header>
+<!-------------------------------second part home section------------------------------------->
+<section class="home" id="home">
+   
+ <div class="hero">
+    <h3> THE DELICIOUS  &   CHEERFUL BAKERY SHOP</h3>
+    <p>FRESH CAKE AND DESSERTS , ENERGIZER  EVERY DAY  .</p>
+    <a class="btn" href="">get yours now</a>
+</section>
+<!---------------item one-- cake--------------------------------------------->
+<section class=" cakes" id="cakes">
+  <h3 class="title">OUR<span>   cakes</span><h3>
+    <div class="wrapper">
+ 
+        <div class="cake-card">
+        <img src="images/cakes/cake1.jpg" alt=""/>
+        <h3> choclate cake </h3>
+        <div class="price">Rs22/-</div><br>
+        <a href="" class="btn">add to cart</a>
+</div>
+<!--item 2-------------------------------->
+<div class="cake-card">
+        <img src="images/cakes/cake2.jpg" alt=""/>
+        <h3>Ice cake</h3>
+        <div class="price">Rs10/-<span>Rs15</span></div><br>
+        <a href="" class="btn">add to cart</a>
+</div>
+<!--item 3-------------------------------->
+<div class="cake-card">
+        <img src="images/cakes/cake3.jpg" alt=""/>
+        <h3> Wedding cake </h3>
+        <div class="price">Rs500/-<span>Rs300</span></div>
+        <a href="" class="btn">add to cart</a>
+</div>
+<!--item 4-------------------------------->
+<div class="cake-card">
+        <img src="images/cakes/cake4.jpg" alt=""/>
+        <h3> Waffle cake</h3>
+        <div class="price">Rs22/-</div><br>
+        <a href="" class="btn">add to cart</a><br>
+</div>
+<!--item 5-------------------------------->
+
+<div class="cake-card">
+        <img src="images/cakes/cake5.jpg" alt="">
+        <h3> Berry cake</h3>
+        <div class="price">Rs22/-</div><br>
+        <a href="" class="btn">add to cart</a>
+</div>
+<!--item 6-------------------------------->
+<div class="cake-card">
+        <img src="images/cakes/cake6.jpg" alt=""/>
+        <h3> Lemmon cake </h3>
+        <div class="price">Rs22/-</div>
+        <a href="" class="btn">add to cart</a>
+</div>
+<!--item 7-------------------------------->
+<div class="cake-card">
+        <img src="images/cakes/cake7.jpeg" alt=""/>
+        <h3> Pan  cake </h3>
+        <div class="price">Rs55/-</div><br><br>
+        <a href="" class="btn">add to cart</a>
+</div>
+</div>
+</section>
+<!---------------------- cheese cake section next----------->
+<section class ="cheese-cakes" id="cheese-cakes">
+  <h1 class="title">our <span>cheese cakes</span></h1>
+  <div class="wrapper">
+   <!------------------cheese cake 1----------->
+         <div class="cheese-card">
+         <div class ="icons">
+         <a  class="fas fa-shopping-cart"></a>
+         <a class="fas fa-heart"> </a>
+         <a class="fas fa-eye"></a>
+</div>
+        <div class="img">
+        <img src="images/cheesecake/cheesecake1.jpg"/>
+</div>
+         <div class ="content">
+         <h3> Crimaly cheese cake</h3>
+         <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+</div> 
+<div class ="price">Rs10/- <span>Rs20</span></div>
+</div>
+</div>
+<!----------cheese ckae 2---------->
+         <div class="cheese-card">
+         <div class ="icons">
+         <a class="fas fa-shopping-cart"></a>
+         <a class="fas fa-heart"></a>
+         <a class="fas fa-eye"></a>
+ </div>
+         <div class="img">
+         <img src="images/cheesecake/cheesecake2.jpg"/>
+ </div>
+         <div class ="content">
+         <h3> Mango cheese cake</h3>
+         <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+</div> 
+         <div class ="price">Rs10/- <span>Rs20</span></div>
+</div>
+</div>
+<!----------cheese cake 3----->
+        <div class="cheese-card">
+        <div class ="icons">
+        <a  class="fas fa-shopping-cart"></a>
+        <a class="fas fa-heart"> </a>
+        <a class="fas fa-eye"></a>
+</div>
+        <div class="img">
+        <img src="images/cheesecake/cheesecake4.jpg"/>
+ </div>
+        <div class ="content">
+        <h3> Fruity  Summar cheese cake</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+</div> 
+        <div class ="price">Rs15/- <span>Rs25</span></div>
+</div> 
+</div>
+<!-----------cheese cake 4----->
+        <div class="cheese-card">
+        <div class ="icons">
+        <a  class="fas fa-shopping-cart"></a>
+        <a class="fas fa-heart"> </a>
+        <a class="fas fa-eye"></a>
+</div>
+        <div class="img">
+        <img src="images/cheesecake/cheesecake3.jpg"/>
+</div>
+        <div class ="content">
+        <h3> Baked cheese cake</h3>
+        <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+</div> 
+        <div class ="price">Rs15/- <span>Rs20</span></div>
+</div>  
+</div>
+</div>
+</div>
+</setion>
+<!----new arrival------>
+<section class ="new-arrivals" id="new-arrivals">
+    <h1 class="title">New <span> Arrivals</span></h1>
+    <div class="wrapper">
+        <!---new arival1------------------------>
+<div class="card">
+            <div class="img">
+            <img src="images/macroons1.jpg"/>
+        </div>
+        <div class="content">
+             <a>Rainbow Macroons</a>
+              <p> FRESH CAKE AND DESSERTS EVERY DAY .</p>
+             <a class="btn">Addcart</a>
+         </div>   
+</div>
+   <!-----------new arival2--------->             
+<div class="card">
+            <div class="img">
+            <img src="images/cookies1.jpg"/>
+        </div>
+        <div class="content">
+             <a>Soft & crunchy cookies</a>
+             <p> FRESH CAKE AND DESSERTS EVERY DAY .</p>
+             <a class="btn">Addcart</a>
+         </div>
+</div>
+<!----------------new arival 3-------->
+<div class="card">
+            <div class="img">
+            <img src="images/cookies2.jpg"/>
+        </div>
+        <div class="content">
+             <a> cruchy cookies</a>
+             <p> FRESH CAKE AND DESSERTS EVERY DAY .</p>
+             <a class="btn">Addcart</a>
+         </div>
+</div>
+<!----------------new arival--4------>
+         <div class="card">
+            <div class="img">
+            <img src="images/brownes.jpg"/>
+        </div>
+        <div class="content">
+             <a> Mouthwatering Brownies</a>
+             <p> FRESH CAKE AND DESSERTS EVERY DAY .</p>
+             <a class="btn">Addcart</a>
+</div>
+</div>
+</div>
+</section>
+<!----About ------------>
+
+<section class="about " id="about">
+<h1 class="title"><span>about</span> Us</h1>
+ <div class="container">
+    <div class="img">
+        <img src="images/cheesecake/cheesecake1.jpg">
+</div>
+<div class ="content">
+    <h3> What Makes Us Different ?</h3>
+<p>Cheesecake is a dessert made with a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar.  
+</p>
+<p>It may have a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sometimes sponge cake.
+
+</p>
+    <a href="" class="btn"> Learn More...</a>
+</div>
+<br><br><br><br><br><br>
+
+ <div class="img">
+        <img src="images/cakes/cake1.jpg">
+</div>
+<div class ="content">
+    <h3> What Makes Us Different ?</h3>
+<p> Rubbing in Method. * Air is trapped in sieving the flour and by lightly (with finger tips) rubbing the. ...
+Melting. • Fat and sugar ingredients are melted in a saucepan. ...
+Creaming. • Air is trapped by creaming the sugar and fat together. ...
+Whisking Method. • Eggs and sugar whisked together to trap air (aerate) ...
+All in one method. 
+</p>
+ 
+    <a href="" class="btn"> Learn More...</a>
+</div>
+</div>
+</section>
+<!-------------------------------------Rievew   section  begin--------------------------->
+<section class="review" id="review">
+        <h1 class="title">Customer's<span>  Review</span></h1>
+        <div class="wrapper">
+        <div class="review-card">
+            <img src="images/qoute.png" />
+            <p> The Best Bekary in the India !!!!They provide the fresh Cake,cubcakes,manymore and wide range of dessert  choices.</p><br><br>
+         <img   class="customer" src="images/man1.jpg" />
+         <h3>Abhishek Mane</h3>
+         <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+            
+        </div>
+    </div>
+        <!-----------review 2-------->
+ <div class="review-card">
+            <img src="images/qoute.png" />
+            <p> Wow! Super cute place with amazing pasties .The staff was also super nice and welcoming. Dfinitely recommenda THE DELICIOUS  &   CHEERFUL bakery shop.<br>
+</p>
+         <img class="customer" src="images/woman2.jpg"  />
+         <h3>Tanu Shinde</h3>
+         <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <!-----------review 3-------->
+ <div class="review-card">
+            <img  src="images/qoute.png"/>
+<p> THE DELICIOUS  &   CHEERFUL Bakery shop is very amazing and in product is very testy ,fresh. 
+</p><br><br><br>
+         <img class="customer"  src="images/woman1.jpg"/>
+         <h3>Esha Sonavane</h3>
+         <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!----contact section---------->
+    <section class="contact" id="contact">
+        <h1 class="title"><span>Contact</span> Us</h1>
+        <div class="contents">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41474.174492076134!2d73.91497762918091!3d18.496279955595135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e9ff81f1aae9%3A0x2560343555ac8b53!2sHadapsar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1706793946508!5m2!1sen!2sin"  allowfull loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<form   action="db/contact.php"   method="post">
+<h3>Get In Touch</h3>
+<div class="input-box">
+<span class="fas fa-user"></span>
+<input type="text" name="name" placeholder="Enter Name" required>
+</div>
+
+<div class ="input-box">
+    <span class="fas fa-envelope"></span>
+    <input type="email" name="email" placeholder=" Enter Email" required>
+</div>
+
+<div class ="input-box">
+    <span class="fas fa-phone"></span>
+    <input type="number" name="mob" placeholder=" Enter Phone" required>
+</div>
+<div class ="input-box">
+    <span  class="far fa-address-book">
+</span>
+    <input type="address" name="address" placeholder=" Enter Address" required>
+    </div>
+     
+<a href="contact.php" id="contactbtn"  type="submit" name="save"  class="btn">Contact Now....</a>
+
+</form>
+        </div>
+    </section>
+     
+    <!-------------footer section----------->
+  <footer class="footer"    id ="footer">                     
+  <div class="social-media">
+  <a href="" class="fab fa-facebook-f"></a>
+  <a href="" class="fab fa-twitter"></a>
+  <a href="" class="fab fa-instagram"></a>
+  <a href="" class="fab fa-linkedin"></a>
+  <a href="" class="fab fa-pinterest"></a>
+   </div>
+   <div class="links">
+    <a href="#home">Home</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#cheese-cakes">Cheesecakes</a>
+      <a href="#new-arrivals">New arrivals</a>
+      <a href="#about">About</a>
+      <a href="#review">Review</a>
+      <a href="#registration">Registration</a>
+      <a href="#admin">Admin</a>
+       <a href="#login">Login</a>
+      <a href="#contact">Contact</a>
+       
+
+  </div>
+ <div class="credits">
+    Created By <span>Dnyaneshwari  Bajirao Potghan..........</span>||All Right Reserved...
+    </div> 
+</footer>
+</header>
+<script src="bscript.js">
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

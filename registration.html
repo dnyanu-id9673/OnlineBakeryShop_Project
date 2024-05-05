@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lanh="en">
+<head> 
+    <meta= charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ 
+ <title>
+ First Registration page</title>
+
+
+   <link rel="website icon" type="jpeg" href="images.png">
+ 
+  <!----web site link---->
+ <link rel="stylesheet"  href="Registration.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     
+</head>
+<body >
+ 
+
+    <form action="db/database_Registration.php" method="post">
+ <div class ="dip">
+<h2><i><B>Registration Page</i><B></h2>
+        <div class ="sub">
+            <label>Name</label><br><br>
+ <input type= "text" placeholder="Full name" name="name" required>
+ 
+  </div>
+<br>
+<div class =" sub">
+<label>Email address</label> <br><br>
+<input type= " email" placeholder=" Email" name="email" required>
+ <br><br>
+ </div><br>
+ <div class ="sub">
+<label>Password</label> <br><br>
+<input type= "password" placeholder="Password" name="password" required>
+ </div>
+<br>
+<div class ="sub">
+<label>Confirm password</label> <br><br>
+<input type= "password" placeholder=" Confirm password" name="confirm_password" required>
+ </div>
+ 
+
+<br>
+<br><br>
+<button type="submit" class ="btn1" name="save">Register</button></a>
+<a href="index.html"> Back</a>
+
+  
+ 
+<div class ="message" id="success"  name="INSERT" style ="display:none">Registration Successfuly!></div  >
+    <div style="display:none  "> 
+    
+</div >
+ </body>
+ </html>
